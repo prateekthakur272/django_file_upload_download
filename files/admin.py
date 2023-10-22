@@ -3,4 +3,4 @@ from .models import File
 # Register your models here.
 @admin.register(File)
 class FileAdmin(admin.ModelAdmin):
-    list_display = ('file',)
+    list_display = ('name','file',)
